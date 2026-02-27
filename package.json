@@ -1,0 +1,30 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://KRANTHIAKURATHI.github.io/TinyLink",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode production",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "axios": "^1.6.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "baseline-browser-mapping": "^2.10.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.3.1"
+  }
+}

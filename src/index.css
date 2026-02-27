@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.register{
+  color: brown;
+  text-align: end;
+  padding-top: 3%;
+  padding-right: 8%
+}
