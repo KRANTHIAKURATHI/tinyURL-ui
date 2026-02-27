@@ -9,7 +9,7 @@ const LandingPage = () => {
   const [copied, setCopied] = useState(false);
 
   // Get API URL from environment or use default
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const API_URL =import.meta.env.VITE_API_URL;
 
   // Validate URL format
   const isValidUrl = (url) => {
